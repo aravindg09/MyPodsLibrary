@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aravindg@yupptv.com' => 'aravindg@yupptv.com' }
   s.source           = { :git => 'https://github.com/aravindg09/MyPodsLibrary.git', :tag => s.version.to_s }
+  s.exclude_files = "Constrictor/Constrictor/*.plist"
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
