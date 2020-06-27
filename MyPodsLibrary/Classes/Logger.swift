@@ -22,4 +22,8 @@ public class Logger {
         print("private")
     }
     
+    public func LoastMethod(message: String) {
+        print("Toast Message: \(message)")
+    }
+    
 }
