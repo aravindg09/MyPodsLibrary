@@ -26,4 +26,8 @@ public class Logger {
         print("Toast Message: \(message)")
     }
     
+    func changes() {
+        LoastMethod(message: "Changes")
+    }
+    
 }
